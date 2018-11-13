@@ -7,24 +7,37 @@ body {
   font-family: "Arial";
 }
 
+.visual-hidden {
+  display: none;
+}
+
 /* page-header */
 
 .page-header {
   background-color: #33425b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px 25px;
 }
 
 
 /* site-menu */
 
 .site-menu {
-  padding: 20px 0;
+  white-space: nowrap;
 }
 
 .site-menu__item {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.site-menu__item:hover {
+  color: #cccccc;
 }
 
 
@@ -32,6 +45,9 @@ body {
 
 .logo {
   font-size: 25px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .logo__image {
@@ -43,4 +59,109 @@ body {
 
 .wrapper {
   margin-left: 25px;
+}
+
+
+/* promo */
+
+.promo {
+  position: relative;
+  display: inline-block; /* может не нужно */
+}
+
+.promo__image {
+  display: block;
+}
+
+.promo__button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+/* button */
+
+.button {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #eb3948;
+  padding: 10px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+
+/* blog */
+
+.blog {
+  background-color: white;
+  padding: 0 25px;
+}
+
+.blog__item {
+  padding: 20px 0;
+  border-bottom: 2px dashed #33425b;
+}
+
+.blog__item:last-child {
+  border: none;
+}
+
+.blog__title {
+  font-size: 22px;
+  color: #33425b;
+  margin-top: 0;
+}
+
+.blog__description {
+  font-size: 18px;
+  color: #33425b;
+}
+
+
+/* reviews */
+
+.reviews {
+  border: 1px solid #33425b;
+  color: #33425b;
+  padding: 0 25px;
+}
+
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px dashed #33425b;
+  padding-bottom: 10px;
+}
+
+.reviews__item:last-child {
+  border: none;
+}
+
+.reviews__author {
+  align-self: flex-end;
+}
+
+
+/* page-footer */
+
+.page-footer {
+  background-color: #33425b;
+  display: flex;
+  padding: 25px 0px;
+}
+
+.page-footer__link {
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+  background-color: #212a39;
+  margin-left: 30px;
 }
