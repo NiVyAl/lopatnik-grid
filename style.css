@@ -1,0 +1,46 @@
+/* scafolding */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f6f8;
+  font-family: "Arial";
+}
+
+/* page-header */
+
+.page-header {
+  background-color: #33425b;
+}
+
+
+/* site-menu */
+
+.site-menu {
+  padding: 20px 0;
+}
+
+.site-menu__item {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+
+/* logo */
+
+.logo {
+  font-size: 25px;
+}
+
+.logo__image {
+  vertical-align: middle
+}
+
+
+/* wrapper */
+
+.wrapper {
+  margin-left: 25px;
+}
