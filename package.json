@@ -1,0 +1,24 @@
+{
+  "name": "lopatkin",
+  "version": "1.0.0",
+  "description": "use grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiVyAl/lopatnik-grid.git"
+  },
+  "author": "nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiVyAl/lopatnik-grid/issues"
+  },
+  "homepage": "https://github.com/NiVyAl/lopatnik-grid#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
